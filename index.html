@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>天猫侧边栏含购物车demo</title>
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <div class="wrapper choose-car">
+        <div class="r-nav ">
+            <a href="#" class="item uer-pic">
+                <img src="img/ww.jpg">
+            </a>
+            <a href="javascript:;" class="item btn-shopcar">
+                <i class="iconfont">&#xe673;</i> 购物车
+            </a>
+        </div>
+        <div class="sidebar">
+            <div class="shopcar">
+                <div class="tm-top clearfix">
+                    <div class="selectAll">
+                        <input type="checkbox" id="chooseall">
+                        <label for="chooseall">全选</label>
+                    </div>
+                    <a href="#" class="checkall">查看全部</a>
+                </div>
+                <div class="goods">
+                    <ul>
+                        <li class="store">
+                            <div class="store-info">
+                                <input type="checkbox" class="store-all">
+                                <a href="#" class="store-name" title="某某专卖店">某某专卖店</a>
+                                <span class="store-total">￥0.00</span>
+                            </div>
+                            <div class="goods-info clearfix">
+                                <div class="check">
+                                   <input type="checkbox" class="selected"> 
+                                </div>
+                                <a href="#" title="某某商品" class="pic">
+                                    <img src="img/1.jpg" alt="某商品图片">
+                                </a>
+                                <a href="" class="des ell" title="某商品">某商品</a>
+                                <div class="add-or-cut">
+                                    <a href="javascript:;" class="cut default">-</a>
+                                    <span class="num">1</span>
+                                    <a href="javascript:;" class="add">+</a>
+                                </div>
+                                <div class="good-total">
+                                    ￥<span>50.00</span>
+                                </div>
+                            </div>
+                        </li>
+                       <li class="store">
+                           <div class="store-info">
+                               <input type="checkbox" class="store-all">
+                               <a href="#" class="store-name" title="某某专卖店">某某专卖店</a>
+                                <span class="store-total">￥0.00</span>
+                           </div>
+                           <div class="goods-info clearfix">
+                               <div class="check">
+                                  <input type="checkbox" class="selected"> 
+                               </div>
+                               <a href="#" title="某某商品" class="pic">
+                                   <img src="img/1.jpg" alt="某商品图片">
+                               </a>
+                               <a href="" class="des ell" title="某商品">某商品</a>
+                               <div class="add-or-cut">
+                                   <a href="javascript:;" class="cut default">-</a>
+                                   <span class="num">1</span>
+                                   <a href="javascript:;" class="add">+</a>
+                               </div>
+                               <div class="good-total">
+                                   ￥<span>50.01</span>
+                               </div>
+                           </div>
+                            <div class="goods-info clearfix">
+                               <div class="check">
+                                  <input type="checkbox" class="selected"> 
+                               </div>
+                               <a href="#" title="某某商品" class="pic">
+                                   <img src="img/1.jpg" alt="某商品图片">
+                               </a>
+                               <a href="" class="des ell" title="某商品">某商品</a>
+                               <div class="add-or-cut">
+                                   <a href="javascript:;" class="cut default">-</a>
+                                   <span class="num">1</span>
+                                   <a href="javascript:;" class="add">+</a>
+                               </div>
+                               <div class="good-total">
+                                   ￥<span>50.02</span>
+                               </div>
+                           </div>
+                       </li>
+                    </ul>
+                </div>
+                <div class="pay">
+                    <div class="total-info">
+                        <p>已选<span class="totalNum">0</span>件</p>
+                       <span class="totalmoney">￥0.00</span>
+                    </div>
+                    <div class="btn-pay">
+                        <a href="#">
+                            <span>结 算</span>
+                            <!-- <span>&gt</span> -->
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
