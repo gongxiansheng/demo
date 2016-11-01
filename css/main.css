@@ -30,6 +30,7 @@ input{
 a {
   text-decoration: none;
   outline: none;
+  color:#666;
 }
 .ell {
     overflow: hidden;
@@ -219,12 +220,6 @@ a.btn-shopcar{
   color: #fff;
   background: rgba(191,191,191,.3);
 }
-// .goods-info .add-or-cut a:first-child{
-//     margin-right: 5px;
-// }
-// .goods-info .add-or-cut a:last-child{
-//     margin-left: 5px;
-// }
 .goods-info .add-or-cut span{
   float:left;
   width: 26px;
